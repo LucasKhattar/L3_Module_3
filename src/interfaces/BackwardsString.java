@@ -10,7 +10,12 @@ public class BackwardsString extends SpecialString {
 	@Override
 	public String funkifyText(String words) {
 		// TODO Auto-generated method stub
-		return null;
+		String reve = "";
+		for (int i = 0; i < words.length(); i++) {
+			String rev = reve+words.charAt(i);
+			reve = rev;
+		}
+		return reve;
 	}
 
 }

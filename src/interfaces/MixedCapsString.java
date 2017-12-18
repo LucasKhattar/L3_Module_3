@@ -9,8 +9,13 @@ public class MixedCapsString extends SpecialString {
 
 	@Override
 	public String funkifyText(String words) {
-		// TODO Auto-generated method stub
-		return null;
+		 //TODO Auto-generated method stub
+		String mixed = words;
+		mixed.toLowerCase();
+		for (int i = 0; i < words.length(); i+=2) {
+			
+		}
+		return words;
 	}
 
 }
