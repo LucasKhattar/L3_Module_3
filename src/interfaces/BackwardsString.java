@@ -12,7 +12,7 @@ public class BackwardsString extends SpecialString {
 		// TODO Auto-generated method stub
 		String reve = "";
 		for (int i = 0; i < words.length(); i++) {
-			String rev = reve+words.charAt(i);
+			String rev = words.charAt(i)+reve;
 			reve = rev;
 		}
 		return reve;
